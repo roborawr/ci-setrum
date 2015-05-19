@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php/$0 [PT,L] 
+
+
+php_value memory_limit 600M
+php_value upload_max_filesize 600M
+php_value post_max_size 600M
+ 

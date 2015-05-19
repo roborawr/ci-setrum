@@ -1,0 +1,25 @@
+
+.form-signin {
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+    }
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px; 
+    margin: 25px 0;
+    font-size: 16px; }
+
+.labeltitle{
+
+    padding:0 auto;}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}

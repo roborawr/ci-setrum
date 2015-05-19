@@ -1,0 +1,181 @@
+body{
+  
+  height:100%;
+  margin-top:50px;
+  
+}
+
+.navbar-elektro{
+  background-color: #3b5998;
+  border-color: #080808;
+}
+
+.white{
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.text-white{
+  text-decoration: none;
+  color: white;
+
+}
+
+/*untuk membuat menjadi tengah*/
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+/* end */
+
+/*custom login*/
+/* Wrapper untuk memaksa footer pada halaman login berada di bawah
+	-martin bead -> http://martinbean.co.uk/ 
+	-Ryan Fait  -> http://ryanfait.com/sticky-footer/
+*/
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+}
+
+/*akhir custom login*/
+
+/*untuk footer secara keseluruhan*/
+/*.push{
+  height: 60px;
+}
+#footer{
+  height: auto;
+  background-color: #3b5998;
+  padding-top: 10px;
+}
+*/
+/*akhir dari footer*/
+
+
+
+/*untuk margin*/
+.mr-top-55 {
+    margin-top:55px;
+}
+
+.mr-top-50 {
+    margin-top:50px;
+}
+
+.mr-top-10 {
+  margin-top:10px;
+}
+
+.mr-top-5 {
+    margin-top:5px;
+}
+
+.mr-bot-5 {
+    margin-bottom:5px;
+}
+
+.mr-bot-20 {
+    margin-bottom:20px;
+}
+
+.mr-left-50{
+  margin-left:50px;
+}
+
+.mr-left-20{
+  margin-left:20px;
+}
+
+.mr-right-10{
+  margin-right:10px;
+}
+
+.mr-right-20{
+  margin-right:20px;
+}
+
+/*akhir margin*/
+
+/*untuk gambar*/
+.img-center{
+  margin:0 auto;  
+}
+/*akhir gambar*/
+
+/*box shadow*/
+.br-shadow{
+  /*border-radius: 5px 5px 5px 5px;*/
+  box-shadow: 0 5px 10px #CCCCCC;
+}
+
+.br-bot{
+  border-bottom: 1px solid #999;
+  /*width: 200px;*/
+}
+/*akhir box sadhow*/
+
+/*custom footer*/
+
+footer {
+    color: #666;
+    background-color: #3b5998;
+    padding: 10px 0 10px 0;
+    margin-top: 30px;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -63px;
+}
+.push {
+    height: 63px;
+}
+
+.hr-margin{
+  margin-top: 1px;
+  margin-bottom: 4px;
+
+}
+
+@media (max-width: 767px) {
+    body {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    footer, .wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.no-margin{
+  margin: 0px 0px 0px 0px;
+}
+
+/*.container {
+    max-width: 940px;
+}*/
+/* end responsive footer fix */
+
+/*akhir dari custom footer*/
+
+
+
+
+
+/*credit:
+-by Aalaap Ghag 
+-by ryanfait
+
+
+
+*/
